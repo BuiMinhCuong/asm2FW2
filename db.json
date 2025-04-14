@@ -1,0 +1,174 @@
+{
+  "category": [
+    {
+      "name": "Phones",
+      "description": "ok ok",
+      "id": 1,
+      "icon": "FaMobileAlt"
+    },
+    {
+      "name": "Computers",
+      "description": "ok ok",
+      "icon": "FaLaptop",
+      "id": 2
+    },
+    {
+      "name": "SmartWatch",
+      "description": "ok ok",
+      "icon": "FaClock",
+      "id": 3
+    },
+    {
+      "name": "Camera",
+      "description": "Camera",
+      "icon": "FaCamera",
+      "id": 4
+    },
+    {
+      "name": "HeadPhones",
+      "description": "HeadPhones",
+      "icon": "FaHeadphones",
+      "id": 5
+    },
+    {
+      "name": "Gaming",
+      "description": "Gaming",
+      "icon": "FaGamepad",
+      "id": 6
+    },
+    {
+      "name": "aloalaooaoa",
+      "description": "lskk",
+      "icon": "FaMobileAlt",
+      "id": 7
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744182341/swm65dk4jv7zaadtb8rq.webp",
+      "name": "Smartphone",
+      "category": "Phones",
+      "price": "100000000",
+      "color": "#902727",
+      "size": "M",
+      "rating": "4",
+      "quantity": "12",
+      "description": "jkhi",
+      "status": "inStock",
+      "type": "simple",
+      "parent": 0
+    },
+    {
+      "id": 2,
+      "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744184488/ojkxrybibsqnbvprewam.jpg",
+      "name": "Laptop Dell XPS 13",
+      "category": "Gaming",
+      "price": "1200000000",
+      "color": "#000000",
+      "size": "XS",
+      "rating": "2",
+      "quantity": "111",
+      "description": "bình thường",
+      "status": "offStock",
+      "type": "simple",
+      "parent": 0
+    },
+    {
+      "id": 3,
+      "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744184211/wn79altjlov8moyoqh0i.png",
+      "name": "Sản phẩm 1 udpate",
+      "category": "Gaming",
+      "price": "1345678900987653",
+      "color": "#000000",
+      "size": "XL",
+      "rating": "0",
+      "quantity": "1",
+      "description": "ypoh",
+      "status": "offStock",
+      "type": "simple",
+      "parent": 0
+    }
+  ],
+  "variants": [],
+  "orders": [
+    {
+      "id": 1,
+      "customer": {
+        "name": "ưlhd",
+        "phone": "0976949258",
+        "address": "11 P. Trịnh Văn Bô",
+        "paymentMethod": "cash"
+      },
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1,
+          "price": "100000000"
+        }
+      ],
+      "total": 100000000,
+      "date": "2025-04-14T09:09:59.547Z"
+    },
+    {
+      "id": 2,
+      "customer": {
+        "name": "Cuong Bùi Minh",
+        "phone": "0976949258",
+        "address": "11 P. Trịnh Văn Bô",
+        "paymentMethod": "credit"
+      },
+      "items": [
+        {
+          "productId": 2,
+          "quantity": 1,
+          "price": "1200000000"
+        }
+      ],
+      "total": 1200000000,
+      "date": "2025-04-14T10:38:44.430Z"
+    }
+  ],
+  "carts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "Items": [
+        {
+          "productId": 1,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "Items": [
+        {
+          "productId": 1,
+          "quantity": "241111"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "email": "abcd@gmail.com",
+      "password": "$2a$10$7m/OvHKwK9/KbILHE7kS9.HjoSm2Jerl6s8gP8x.I.EnTev9EpVnu",
+      "role": "admin",
+      "id": 4
+    },
+    {
+      "email": "ha@gmail.com",
+      "password": "$2a$10$Qrx3ZJzsOngSJguSYgXXm.GpF0Hbnebatc60F9kVW8Z21cq.HTlhK",
+      "role": "user",
+      "id": 5
+    },
+    {
+      "email": "mssv@gmail.com",
+      "password": "$2a$10$LGwQh39527XE2LDAigZN0ulyJphDap4riDGtVMpLoRXgq3n1/4e3W",
+      "role": "user",
+      "id": 6
+    }
+  ]
+}
